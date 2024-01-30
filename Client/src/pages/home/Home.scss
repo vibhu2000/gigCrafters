@@ -1,0 +1,97 @@
+.home{
+    .heading{
+        margin-left: 30px;
+        margin-bottom: -50px;
+        font-size: 40px;
+        color: gray;
+    }
+    .features{
+        background-color: lightcyan;
+        display: flex;
+        justify-content: center;
+        padding: 100px 0px;
+
+        &.dark{
+            background-color: rgb(233, 134, 230);
+            h1{
+                color: white !important;
+            }
+            p{
+                color: white !important;
+                font-size: 15px !important;
+                margin-bottom: 20px !important;
+            }
+            .title{
+                color: white !important;
+                font-weight: 300 !important;
+                font-size: 15px !important;
+                margin-bottom: 5px !important;
+            }
+            img{
+                width: 100%;
+                margin-left: 20px;
+            }
+            button{
+                background-color: rgb(161, 2, 161);
+                color: white;
+                padding: 20px 30px;
+                border-radius: 5px;
+                font-size: 25px;
+                margin-top: 20px;
+                border: none;
+                width: max-content;
+            }
+        }
+
+        .container{
+            display: flex;
+            width: 1000px;
+            align-items: center;
+            gap: 100px;
+        }
+        .item{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            
+            &:first-child{
+                flex: 2;
+            }
+            &:last-child{
+                flex: 3;
+            }
+            h1{
+                font-size: 25px;
+                font-family: 'Lucida Sans';
+                font-weight: 800;
+            }
+            p{
+                font-size: 12px;
+                font-weight: 300;
+                color: gray;
+                line-height: 20px;
+                letter-spacing: 1px;
+                margin-top: -10px;
+            }
+            .title{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-weight: 500;
+                font-size: 18px;
+                color: gray;
+                margin-top: -15px;
+
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+            video{
+                width: 500px;
+                margin-top: 30px;
+                margin-left: 40px;
+            }
+        }
+    }
+}

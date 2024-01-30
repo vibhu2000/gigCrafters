@@ -1,0 +1,20 @@
+//begining step
+npm init -y
+
+//dependencies
+npm i express nodemon
+npm install mongoose
+npm install mongodb
+
+// for access the env file
+npm install dotenv
+
+//Create Models
+
+//Create endpoints(routers) and controllers(functions) -> routes using express, use http://localhost:8800/api/users/test/ on chrome
+
+// for encrypt password
+npm i bcrypt
+
+//for generating token
+npm i jsonwebtoken cookie-parser
