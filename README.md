@@ -1,6 +1,6 @@
-<h1 align="center">Fiverr Clone</h1>
+<h1 align="center">gigCrafters</h1>
 
-<h3 align="center">A setout to clone one of the largest outsourcing platforms using the toolset from the MERN stack.</h3>
+<h3 align="center">The primary objective of our website is to establish a dynamic online marketplace that efficiently connects freelancers with clients, offering a platform where individuals can buy and sell services across a diverse range of categories. </h3>
 
 <br />
 
@@ -24,23 +24,6 @@
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
 
 </p>
-
-<h4 align="center">Deployed On:</h4>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="vercel" />
-  <img src="https://img.shields.io/badge/Render-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="heroku" />
-</p>
-
-<br />
-<p align="center">
-  <em>
-    <b>Pardon render.com's slow service to the server for initial api response</b>
-  </em>
-</p>
-<br />
-
-![cover](https://i.ibb.co/16SWfbg/Fiverr-Gif.gif)
 
 <br />
 <br />
@@ -87,28 +70,28 @@ As for the front end, the UI has only been built using JSX and Scss. For state m
 
 <table>
   <tr>
-    <td><img src="https://i.ibb.co/4Z9CMpn/1.png"  alt="home" /></td>
-    <td><img src="https://i.ibb.co/QQQgWTc/2.png"  alt="slider" /></td>
+    <td><img src="https://i.ibb.co/gjVL5YN/6.png"  alt="home" /></td>
+    <td><img src="https://i.ibb.co/Zzjgdpw/15.png"  alt="slider" /></td>
   </tr>
   <tr>
-    <td><img src="https://i.ibb.co/YNyrDZb/3.png"  alt="men" /></td>
-   <td><img src="https://i.ibb.co/BGw32m3/4.png"  alt="allProducts" /></td>
+    <td><img src="https://i.ibb.co/sJZxxbQ/13.png"  alt="men" /></td>
+   <td><img src="https://i.ibb.co/86PbJsy/5.png"  alt="allProducts" /></td>
   </tr>
   <tr>
-    <td><img src="https://i.ibb.co/PjXSMsk/5.png" alt="allProducts" /></td>
-    <td><img src="https://i.ibb.co/M2xgqN1/13.png"  alt="men" /></td>
+    <td><img src="https://i.ibb.co/YD64RMF/1.png" alt="allProducts" /></td>
+    <td><img src="https://i.ibb.co/6Jm5spp/12.png"  alt="men" /></td>
   </tr>
   <tr>
-    <td><img src="https://i.ibb.co/sKdj3BM/7.png" alt="allProducts" /></td>
-    <td><img src="https://i.ibb.co/99VZBNq/11.png"  alt="men" /></td>
+    <td><img src="https://i.ibb.co/h9V86Jk/7.png" alt="allProducts" /></td>
+    <td><img src="https://i.ibb.co/FXjnnpp/8.png"  alt="men" /></td>
   </tr>
   <tr>
-    <td><img src="https://i.ibb.co/rc2rzw1/10.png" alt="allProducts" /></td>
-    <td><img src="https://i.ibb.co/59WnSW8/9.png"  alt="men" /></td>
+    <td><img src="https://i.ibb.co/WfWKc9b/9.png" alt="allProducts" /></td>
+    <td><img src="https://i.ibb.co/p0ntQFY/11.png"  alt="men" /></td>
   </tr>
   <tr>
-    <td><img src="https://i.ibb.co/GkRtV3T/8.png" alt="allProducts" /></td>
-    <td><img src="https://i.ibb.co/TkxZjcW/12.png" alt="allProducts" /></td>
+    <td><img src="https://i.ibb.co/v14jh1w/10.png" alt="allProducts" /></td>
+    <td><img src="https://i.ibb.co/9G6Xzyn/16.png" alt="allProducts" /></td>
     <td></td>
   </tr>
 </table>
@@ -116,127 +99,3 @@ As for the front end, the UI has only been built using JSX and Scss. For state m
 <br />
 
 <br />
-
-## Getting Started
-
-This project was built using React, Redux, Sass, HTML, JavaScript, Rest API, Node JS, Express and MongoDB with JWT and Stripe integration. It is an freelance outsourcing web application and for running on your local environment you should follow these guidelines.
-
-### Prerequisites
-
-- NPM
-- Node JS
-- MongoDB
-
-### Setup
-
-The project repository can be found in [GitHub link](https://github.com/zuhedshaikh95/fiverr-clone) or just clone the project using this command.
-
-```
-Using HTTPS
-
-# git clone https://github.com/zuhedshaikh95/fiverr-clone.git
-```
-
-- Open terminal on your workspace with
-
-```
-cd /home/workspace/fiverr-clone
-```
-
-## Install
-
-Install NPM
-
-Check that you have node and npm installed
-
-To check if you have Node.js installed, run this command in your terminal:
-
-```
-node -v
-```
-
-To confirm that you have npm installed you can run this command in your terminal:
-
-```
-npm -v
-```
-
-To confirm that you have MongoDB installed you can run this command in your terminal:
-
-```
-mongo -v
-```
-
-To install all the dependences of the project, run the following command:
-
-```
-cd client
-
-npm install
-
-cd ../
-
-cd server
-
-npm install
-```
-
-To run the application got to the client folder and run the following command:
-
-```
-npm run dev
-```
-
-### Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-### Server
-
-`JWT_SECRET`
-e.g. this_is_secret_123
-
-`MONGODB_URI`
-e.g. mongodb cluster URI
-
-`STRIPE_SECRET`
-e.g. Secret key from stripe dashboard
-
-`NODE_ENV`
-e.g. 'development' for local and 'production' for production
-
-### Client
-
-`VITE_API_URL`
-e.g. http://localhost:3000/api or production deployed server link
-
-`VITE_STRIPE_PUBLISHABLE_KEY`
-e.g. Publishable key from stripe dashboard
-
-`CLOUDINARY_ENV`
-e.g Cloudinary environment string from your cloudinary dashboard
-
-`CLOUDINARY_PRESET`
-e.g. Cloudinary preset name from your cloudinary dashboard settings -> Uploads
-
-### Tools used on this project
-
-- Visual Studio Code
-- Vite-JS template
-- MongoDB compass
-- Stripe Dashboard to monitor payments
-
-<br />
-
-## Contact
-
-### Let's connect 🤝 <br />
-
-[![linkedin](https://img.shields.io/badge/Zuhed_Shaikh-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zuhedshaikh95/)
-[![GitHub](https://img.shields.io/badge/Zuhed_Shaikh-20232A?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/zuhedshaikh95)
-
-© 2023 Zuhed Shaikh
-
-## Show your support
-
-Give a ⭐️ if you like this project!
