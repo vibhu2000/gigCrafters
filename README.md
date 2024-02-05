@@ -66,7 +66,7 @@ As for the front end, the UI has only been built using JSX and Scss. For state m
 
 <br />
 
-## Glimpses of fiverr-clone 😉 :
+## Glimpses of gigCrafters 😉 :
 
 <table>
   <tr>
